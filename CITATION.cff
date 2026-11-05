@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+title: "FALCON Survey (FERMI–ALMA Calibrator ObservatioN)"
+message: "If you use the FALCON catalog in your research, please cite this repository."
+
+authors:
+  - family-names: Narita
+    given-names: Kanako
+    affiliation: "Department of Astronomy, The University of Tokyo"
+
+repository-code: "https://github.com/naritakn/naritakn-FALCON-Survey-FERMI-ALMA-Calibrator-ObservatioN-"
+
+license: "CC-BY-4.0"
+
+keywords:
+  - astronomy
+  - astrophysics
+  - blazar
+  - AGN
+  - ALMA
+  - Fermi-LAT
+  - millimeter astronomy
+  - gamma rays
+  - catalog
+
+abstract: >
+  FALCON (FERMI–ALMA Calibrator ObservatioN) is a millimeter-selected
+  gamma-ray blazar catalog constructed by cross-matching the ALMA
+  Calibrator Source Catalogue with the Fermi-LAT 4LAC-DR3 catalog.
+
+version: "1.1-draft"
+
