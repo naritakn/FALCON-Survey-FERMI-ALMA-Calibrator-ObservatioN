@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 title: "FALCON Survey (FERMI–ALMA Calibrator ObservatioN)"
-message: "If you use the FALCON catalog in your research, please cite this repository."
+message: "If you use the FALCON catalog in your research, please cite the paper listed in preferred-citation and this repository."
 
 authors:
   - family-names: Narita
@@ -29,3 +29,17 @@ abstract: >
 
 version: "1.1-draft"
 
+preferred-citation:
+  type: article
+  title: "FALCON (FERMI-ALMA Calibrator ObservatioN): Cross-matching ALMA Calibrators with Fermi-LAT Blazars"
+  authors:
+    - family-names: Narita
+      given-names: Kanako
+    - family-names: Inoue
+      given-names: Yoshiyuki
+    - family-names: Hatsukade
+      given-names: Bunyo
+    - family-names: Fukazawa
+      given-names: Yasushi
+  year: 2026
+  url: "https://arxiv.org/abs/2611.07737"
