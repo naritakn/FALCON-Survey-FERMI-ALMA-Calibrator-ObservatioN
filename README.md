@@ -23,6 +23,26 @@ catalog = Table.read("catalog/FALCON_catalog.fits", hdu="FALCON")
 print(len(catalog))  # 949
 ```
 
-## Citation and license
+## Citation
 
-Please cite Narita et al., *FALCON Survey (FERMI–ALMA Calibrator ObservatioN): Cross-matching ALMA Calibrators with Fermi-LAT Blazars* (under review), and this repository. Author information is provided in `CITATION.cff`. The catalog is licensed under CC BY 4.0; see `LICENSE.md`.
+If you use the FALCON catalog in your research, please cite the following paper and this repository:
+
+Kanako Narita, Yoshiyuki Inoue, Bunyo Hatsukade, and Yasushi Fukazawa (2026). *FALCON (FERMI-ALMA Calibrator ObservatioN): Cross-matching ALMA Calibrators with Fermi-LAT Blazars*. [arXiv:2611.07737 [astro-ph.HE]](https://arxiv.org/abs/2611.07737).
+
+```bibtex
+@misc{narita2026falconfermialmacalibratorobservation,
+      title={FALCON (FERMI-ALMA Calibrator ObservatioN): Cross-matching ALMA Calibrators with Fermi-LAT Blazars},
+      author={Kanako Narita and Yoshiyuki Inoue and Bunyo Hatsukade and Yasushi Fukazawa},
+      year={2026},
+      eprint={2611.07737},
+      archivePrefix={arXiv},
+      primaryClass={astro-ph.HE},
+      url={https://arxiv.org/abs/2611.07737},
+}
+```
+
+Machine-readable citation information is provided in `CITATION.cff`.
+
+## License
+
+The catalog is licensed under CC BY 4.0; see `LICENSE.md`.
